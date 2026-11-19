@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="uk">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+		<title>Сторінку не знайдено – Consult</title>
+		<meta name="description" content="Сторінку Consult не знайдено. Поверніться на головну агенції з підбору персоналу або скористайтеся меню, щоб переглянути проєкти й контакти.">
+		<meta name="robots" content="noindex, follow">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<!-- Fonts-->
+		<link rel="stylesheet" type="text/css" href="assets/fonts/fontawesome/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/fonts/themify-icons/themify-icons.css">
+		<!-- Vendors-->
+		<link rel="stylesheet" type="text/css" href="assets/vendors/bootstrap4/bootstrap-grid.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/vendors/magnific-popup/magnific-popup.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/vendors/owl.carousel/owl.carousel.css">
+		<!-- App & fonts-->
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i&amp;amp;subset=latin-ext">
+		<link rel="stylesheet" type="text/css" href="assets/css/main.css"><!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+	
+	<body id="top">
+		<div class="page-wrap">
+						
+						<!-- header -->
+						<header class="header header__style-03">
+							<div class="container">
+								<div class="header__logo"><a href="index.html" aria-label="На головну сторінку агенції"><img src="assets/img/logo.png" alt="Consult – агенція з підбору персоналу"></a></div>
+								<div class="header__toogleGroup">
+									<div class="header__consultation">
+							<button class="consultation-trigger" type="button" data-open-consultation aria-haspopup="dialog" aria-controls="consultation-dialog">Консультація</button>
+						</div>
+						<div class="search-form">
+										<div class="search-form__toggle"><i class="ti-search"></i></div>
+										<div class="search-form__form">
+															
+															<!-- form-search -->
+															<div class="form-search">
+																<form>
+																	<label class="visually-hidden" for="site-search">Пошук на сайті</label><input class="form-control" id="site-search" type="search" placeholder="Пошук на сайті">
+																</form>
+															</div><!-- End / form-search -->
+															
+										</div>
+									</div>
+								</div>
+								
+								<!-- consult-nav -->
+								<nav class="consult-nav" aria-label="Головна навігація">
+									
+									<!-- consult-menu -->
+									<ul class="consult-menu">
+										<li><a href="index.html">Головна</a></li>
+										<li><a href="about.html">Про нас</a></li>
+										<li><a href="project.html">Проєкти</a></li>
+										<li><a href="404.html">Блог</a></li>
+										<li><a href="contact.html">Контакти</a></li>
+									</ul><!-- consult-menu -->
+									
+									<div class="navbar-toggle"><span></span><span></span><span></span></div>
+								</nav><!-- End / consult-nav -->
+								
+							</div>
+						</header><!-- End / header -->
+						
+			<!-- Content-->
+			<main class="md-content" id="main-content">
+				<div class="consult-404">
+					<div class="md-tb">
+						<div class="md-tb__cell">
+							<div class="container">
+								<div class="row">
+									<div class="col-lg-10 offset-0 offset-sm-0 offset-md-0 offset-lg-1 ">
+										<div class="consult-404__content"><img src="assets/img/404.jpg" alt="Ілюстрація офісу з робочими місцями" width="360" height="330">
+											<h1 aria-label="Помилка 404">404</h1>
+											<h2>Сторінку не знайдено</h2>
+											<p>Можливо, посилання застаріло або в адресі є помилка. На головній сторінці ви можете дізнатися більше про Consult та підбір персоналу. <a href="index.html">Повернутися на головну</a></p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+			<!-- End / Content-->
+		</div>
+
+		<dialog class="consultation-modal" id="consultation-dialog" aria-labelledby="consultation-title" aria-describedby="consultation-description">
+			<button class="consultation-modal__close" type="button" data-close-consultation aria-label="Закрити вікно консультації">×</button>
+			<h2 id="consultation-title">Консультація Consult</h2>
+			<p id="consultation-description">Розкажіть про вакансію або ваше кар’єрне запитання.</p>
+			<form class="consultation-modal__form" data-validation-only novalidate>
+				<div class="consultation-field">
+					<label for="consultation-name">Ваше ім’я</label>
+					<input class="form-control" type="text" autocomplete="given-name" id="consultation-name" name="name" data-field="name" required maxlength="80" aria-describedby="consultation-name-error" placeholder="Наприклад, Олена">
+					<span class="field-error" id="consultation-name-error" aria-live="polite" hidden></span>
+				</div>
+				<div class="consultation-field">
+					<label for="consultation-phone">Телефон</label>
+					<input class="form-control" type="tel" autocomplete="tel" id="consultation-phone" name="phone" data-field="phone" required maxlength="24" aria-describedby="consultation-phone-error" placeholder="098 345 6534">
+					<span class="field-error" id="consultation-phone-error" aria-live="polite" hidden></span>
+				</div>
+				<div class="consultation-field">
+					<label for="consultation-email">Електронна пошта</label>
+					<input class="form-control" type="email" autocomplete="email" id="consultation-email" name="email" data-field="email" required maxlength="254" aria-describedby="consultation-email-error" placeholder="name@example.com">
+					<span class="field-error" id="consultation-email-error" aria-live="polite" hidden></span>
+				</div>
+				<div class="consultation-field">
+					<label for="consultation-message">Ваше завдання</label>
+					<textarea rows="3" minlength="10" id="consultation-message" name="message" data-field="message" required maxlength="1500" aria-describedby="consultation-message-error" placeholder="Опишіть, кого шукаєте або яка консультація потрібна"></textarea>
+					<span class="field-error" id="consultation-message-error" aria-live="polite" hidden></span>
+				</div>
+				<button class="btn btn-primary" type="submit">Надіслати</button>
+			</form>
+		</dialog>
+		<!-- Vendors-->
+		<script type="text/javascript" src="assets/vendors/jquery/jquery.min.js"></script>
+		<script type="text/javascript" src="assets/vendors/imagesloaded/imagesloaded.pkgd.js"></script>
+		<script type="text/javascript" src="assets/vendors/isotope-layout/isotope.pkgd.js"></script>
+		<script type="text/javascript" src="assets/vendors/jquery.countdown/jquery.countdown.min.js"></script>
+		<script type="text/javascript" src="assets/vendors/jquery.countTo/jquery.countTo.min.js"></script>
+		<script type="text/javascript" src="assets/vendors/jquery.countUp/jquery.countup.min.js"></script>
+		<script type="text/javascript" src="assets/vendors/jquery.matchHeight/jquery.matchHeight.min.js"></script>
+		<script type="text/javascript" src="assets/vendors/jquery.mb.ytplayer/jquery.mb.YTPlayer.min.js"></script>
+		<script type="text/javascript" src="assets/vendors/magnific-popup/jquery.magnific-popup.min.js"></script>
+		<script type="text/javascript" src="assets/vendors/masonry-layout/masonry.pkgd.js"></script>
+		<script type="text/javascript" src="assets/vendors/owl.carousel/owl.carousel.js"></script>
+		<script type="text/javascript" src="assets/vendors/jquery.waypoints/jquery.waypoints.min.js"></script>
+		<script type="text/javascript" src="assets/vendors/menu/menu.min.js"></script>
+		<script type="text/javascript" src="assets/vendors/smoothscroll/SmoothScroll.min.js"></script>
+		<!-- App-->
+		<script type="text/javascript" src="assets/js/main.js"></script>
+	</body>
+</html>
